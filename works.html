@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мои работы</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background: url(background.jpg);
+        background-color: black;
+        background-attachment: fixed;
+        background-repeat: repeat-x;
+      }
+      .third {
+        border-color: #3340b6;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #3340b6 inset, 0 0 0 0 #3340b6;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+      }
+      .third:hover {
+        box-shadow: 0 0 10px 0 #3340b6 inset, 0 0 10px 4px #3340b6;
+      }
+      .first {
+        -webkit-transition: box-shadow 300ms ease-in-out,
+          color 300ms ease-in-out;
+        transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+        border-color: #3340b6;
+        border-width: 2px;
+      }
+      .first:hover {
+        box-shadow: 0 0 40px 40px #3340b6 inset;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container">
+        <a class="btn third text-light" href="index.html">
+          <strong>На главную</strong>
+          </svg>  
+        </a>    
+      </div>
+    </div> 
+    <div class="album py-5">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm card-footer rounded-4" style="background-color:rgba(255,255,255,.10 )">
+              <img src="background.jpg" class="rounded-4">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a class="btn first text-light fw-bold" href="#">Открыть</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
